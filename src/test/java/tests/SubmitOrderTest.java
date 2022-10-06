@@ -79,5 +79,7 @@ public class SubmitOrderTest extends BaseTest {
 				//map1.put("product", "ADIDAS ORIGINAL");
 		//List<HashMap<String,String>>data=getJsonDataToMap("C:\\Users\\PC\\eclipse-workspace\\SelenuiumFrameworkDesign\\src\\test\\java\\data\\SubmitOrder.json");
 	}
+       
 
+       //Project successful//
 }
