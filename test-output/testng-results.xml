@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T08:07:31 IST" name="Suite" finished-at="2022-10-06T08:08:05 IST" duration-ms="34251">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="LoginErrorValidationTest.addToCart()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" name="addToCart" class="tests.LoginErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@7188af83]" name="submitOrder" class="tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2022-10-06T08:07:31 IST" name="Login Error Validation Test" finished-at="2022-10-06T08:07:54 IST" duration-ms="22905">
+      <class name="tests.LoginErrorValidationTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:31 IST" name="launchapplication" finished-at="2022-10-06T08:07:39 IST" duration-ms="7492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method retried="true" signature="addToCart()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:39 IST" name="addToCart" finished-at="2022-10-06T08:07:39 IST" duration-ms="795" status="SKIP">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...orrect email or pass[**]word.> but was:<...orrect email or pass[]word.>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<...orrect email or pass[**]word.> but was:<...orrect email or pass[]word.>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at tests.LoginErrorValidationTest.addToCart(LoginErrorValidationTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:39 IST" name="teardown" finished-at="2022-10-06T08:07:40 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:40 IST" name="launchapplication" finished-at="2022-10-06T08:07:43 IST" duration-ms="3553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="addToCart()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:43 IST" name="addToCart" finished-at="2022-10-06T08:07:44 IST" duration-ms="829" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...orrect email or pass[**]word.> but was:<...orrect email or pass[]word.>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<...orrect email or pass[**]word.> but was:<...orrect email or pass[]word.>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at tests.LoginErrorValidationTest.addToCart(LoginErrorValidationTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:45 IST" name="teardown" finished-at="2022-10-06T08:07:45 IST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:45 IST" name="launchapplication" finished-at="2022-10-06T08:07:49 IST" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="productPageValidation()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:49 IST" name="productPageValidation" finished-at="2022-10-06T08:07:54 IST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPageValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginErrorValidationTest@50378a4]" started-at="2022-10-06T08:07:54 IST" name="teardown" finished-at="2022-10-06T08:07:54 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginErrorValidationTest -->
+    </test> <!-- Login Error Validation Test -->
+    <test started-at="2022-10-06T08:07:31 IST" name="Submit Order Test" finished-at="2022-10-06T08:08:05 IST" duration-ms="34251">
+      <class name="tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:07:32 IST" name="launchapplication" finished-at="2022-10-06T08:07:39 IST" duration-ms="7305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:07:39 IST" name="submitOrder" data-provider="getData" finished-at="2022-10-06T08:07:46 IST" duration-ms="6790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pankaj@18, product=ZARA COAT 3, email=abcpvn@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:07:46 IST" name="teardown" finished-at="2022-10-06T08:07:48 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:07:48 IST" name="launchapplication" finished-at="2022-10-06T08:07:52 IST" duration-ms="4064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:07:52 IST" name="submitOrder" data-provider="getData" finished-at="2022-10-06T08:08:00 IST" duration-ms="8340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pankaj@18, product=ADIDAS ORIGINAL, email=abcpvn@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:08:00 IST" name="teardown" finished-at="2022-10-06T08:08:00 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:08:00 IST" name="launchapplication" finished-at="2022-10-06T08:08:04 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:08:04 IST" name="OrderHistoryTest" finished-at="2022-10-06T08:08:05 IST" depends-on-methods="tests.SubmitOrderTest.submitOrder" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SubmitOrderTest@7188af83]" started-at="2022-10-06T08:08:05 IST" name="teardown" finished-at="2022-10-06T08:08:05 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
