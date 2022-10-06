@@ -42,7 +42,7 @@ public class CartPage extends AbstractComponents {
 	
 	}
 	
-	
+	//product successful add in cart
 }
 	
 	
